@@ -1,0 +1,29 @@
+#logo{
+    height: 30px;
+    border-right: 0;
+    border-left: 50px;
+}
+
+.elem {
+    
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    transition: all 500ms ease-in-out; 
+  }
+.elem:hover{
+    scale: 0.5;
+    color: black;
+    border-radius: 0;
+    width: 500px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); 
+}
+
+
+.anim{
+    color: white;
+    line-height: 130px;
+  }
